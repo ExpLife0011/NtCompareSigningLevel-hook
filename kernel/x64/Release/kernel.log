@@ -1,0 +1,35 @@
+﻿  Building 'kernel' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Release\kernel.inf
+  Stamping [Version] section with DriverVer=09/14/2020,23.10.8.220
+  Drver.cpp
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\undocumented.h(17,1): warning C4005: 'STANDARD_RIGHTS_ALL': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\km\wdm.h(5230): message : see previous definition of 'STANDARD_RIGHTS_ALL'
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\utils.h(57,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\utils.h(83,34): warning C4244: '=': conversion from 'ULONG64' to 'ULONG', possible loss of data
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\utils.h(96,22): warning C4244: '=': conversion from 'ULONG64' to 'ULONG', possible loss of data
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\KdmapperTraces.h(143,10): warning C4244: 'return': conversion from 'NTSTATUS' to 'BOOLEAN', possible loss of data
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\KdmapperTraces.h(153,31): warning C4459: declaration of 'DriverName' hides global declaration
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\KdmapperTraces.h(20,16): message : see declaration of 'DriverName'
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\KdmapperTraces.h(219,10): warning C4189: 'cleared': local variable is initialized but not referenced
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\KdmapperTraces.h(220,10): warning C4189: 'Filled': local variable is initialized but not referenced
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\Drver.cpp(65,57): warning C4244: 'argument': conversion from 'DWORD64' to 'int', possible loss of data
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\Drver.cpp(160,33): warning C4456: declaration of 'processId' hides previous local declaration
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\Drver.cpp(36,9): message : see declaration of 'processId'
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\Drver.cpp(160,31): warning C4244: 'initializing': conversion from 'DWORD64' to 'int', possible loss of data
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\Drver.cpp(211,75): warning C4100: 'RegistryPath': unreferenced formal parameter
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\Drver.cpp(211,40): warning C4100: 'DriverObject': unreferenced formal parameter
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\Drver.cpp(284,65): warning C4100: 'registry_path': unreferenced formal parameter
+C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\kernel\Drver.cpp(284,37): warning C4100: 'driver_obj': unreferenced formal parameter
+  kernel.vcxproj -> C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\x64\Release\kernel.sys
+  Driver is 'Universal'.
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\jguo5\source\repos\NtCompareSigningLevels-hook\x64\Release\kernel\kernel.cat
